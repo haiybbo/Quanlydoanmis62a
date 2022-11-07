@@ -19,7 +19,8 @@ namespace WindowsFormsApp1
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            Frmprofilegiangvien f = new Frmprofilegiangvien();
+            f.Show();
         }
     }
 }

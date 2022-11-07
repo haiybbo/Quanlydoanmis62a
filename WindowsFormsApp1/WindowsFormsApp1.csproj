@@ -126,6 +126,21 @@
     <Compile Include="frmstudentprofile.Designer.cs">
       <DependentUpon>frmstudentprofile.cs</DependentUpon>
     </Compile>
+<<<<<<< HEAD
+    <Compile Include="Frmtrogiup_giangvien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmtrogiup_giangvien.Designer.cs">
+      <DependentUpon>Frmtrogiup_giangvien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frmtrogiup_sv.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmtrogiup_sv.Designer.cs">
+      <DependentUpon>Frmtrogiup_sv.cs</DependentUpon>
+    </Compile>
+=======
+>>>>>>> b6f7a88b576ff88c94cc366b1a5683f6348222c6
     <Compile Include="Frmviewdoan_sv.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -211,6 +226,15 @@
     <EmbeddedResource Include="frmstudentprofile.resx">
       <DependentUpon>frmstudentprofile.cs</DependentUpon>
     </EmbeddedResource>
+<<<<<<< HEAD
+    <EmbeddedResource Include="Frmtrogiup_giangvien.resx">
+      <DependentUpon>Frmtrogiup_giangvien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmtrogiup_sv.resx">
+      <DependentUpon>Frmtrogiup_sv.cs</DependentUpon>
+    </EmbeddedResource>
+=======
+>>>>>>> b6f7a88b576ff88c94cc366b1a5683f6348222c6
     <EmbeddedResource Include="Frmviewdoan_sv.resx">
       <DependentUpon>Frmviewdoan_sv.cs</DependentUpon>
     </EmbeddedResource>

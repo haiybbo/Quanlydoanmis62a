@@ -1,7 +1,7 @@
 ﻿
 namespace WindowsFormsApp1
 {
-    partial class Frmdoancuaban
+    partial class Frmsinhvienmain
     {
         /// <summary>
         /// Required designer variable.

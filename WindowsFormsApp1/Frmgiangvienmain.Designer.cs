@@ -248,8 +248,9 @@ namespace WindowsFormsApp1
             this.Controls.Add(this.lblusername);
             this.Controls.Add(this.groupBox1);
             this.Name = "Frmgiangvienmain";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "QLDA - Giảng viên";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.groupBox1.ResumeLayout(false);

@@ -94,6 +94,12 @@
     <Compile Include="Frmdanhsachgiangvien.Designer.cs">
       <DependentUpon>Frmdanhsachgiangvien.cs</DependentUpon>
     </Compile>
+    <Compile Include="Frmsearchdoan_admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmsearchdoan_admin.Designer.cs">
+      <DependentUpon>Frmsearchdoan_admin.cs</DependentUpon>
+    </Compile>
     <Compile Include="Frmsinhvienmain.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -192,6 +198,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Frmdanhsachgiangvien.resx">
       <DependentUpon>Frmdanhsachgiangvien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmsearchdoan_admin.resx">
+      <DependentUpon>Frmsearchdoan_admin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frmsinhvienmain.resx">
       <DependentUpon>Frmsinhvienmain.cs</DependentUpon>

@@ -118,6 +118,7 @@ namespace WindowsFormsApp1
             // 
             this.button7.BackColor = System.Drawing.Color.Navy;
             this.button7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.button7.Enabled = false;
             this.button7.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button7.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button7.Location = new System.Drawing.Point(423, 87);

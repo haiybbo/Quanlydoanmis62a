@@ -16,14 +16,14 @@ namespace WindowsFormsApp1 {
     using CrystalDecisions.CrystalReports.Engine;
     
     
-    public class FrmReports : ReportClass {
+    public class RptDetaitheoChuyennganh : ReportClass {
         
-        public FrmReports() {
+        public RptDetaitheoChuyennganh() {
         }
         
         public override string ResourceName {
             get {
-                return "FrmReports.rpt";
+                return "RptDetaitheoChuyennganh.rpt";
             }
             set {
                 // Do nothing
@@ -41,7 +41,7 @@ namespace WindowsFormsApp1 {
         
         public override string FullResourceName {
             get {
-                return "WindowsFormsApp1.FrmReports.rpt";
+                return "WindowsFormsApp1.RptDetaitheoChuyennganh.rpt";
             }
             set {
                 // Do nothing
@@ -90,9 +90,9 @@ namespace WindowsFormsApp1 {
     }
     
     [System.Drawing.ToolboxBitmapAttribute(typeof(CrystalDecisions.Shared.ExportOptions), "report.bmp")]
-    public class CachedFrmReports : Component, ICachedReport {
+    public class CachedRptDetaitheoChuyennganh : Component, ICachedReport {
         
-        public CachedFrmReports() {
+        public CachedRptDetaitheoChuyennganh() {
         }
         
         [Browsable(false)]
@@ -129,7 +129,7 @@ namespace WindowsFormsApp1 {
         }
         
         public virtual CrystalDecisions.CrystalReports.Engine.ReportDocument CreateReport() {
-            FrmReports rpt = new FrmReports();
+            RptDetaitheoChuyennganh rpt = new RptDetaitheoChuyennganh();
             rpt.Site = this.Site;
             return rpt;
         }

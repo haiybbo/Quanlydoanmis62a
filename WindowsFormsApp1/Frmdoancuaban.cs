@@ -34,14 +34,12 @@ namespace WindowsFormsApp1
 
         private void button2_Click(object sender, EventArgs e)
         {
-            this.Hide();
             frmstudentprofile sp = new frmstudentprofile();
             sp.Show();
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            this.Hide();
             frm_tim_kiem_do_an_sinh_vien search = new frm_tim_kiem_do_an_sinh_vien();
             search.Show();
 
@@ -54,8 +52,13 @@ namespace WindowsFormsApp1
 
         private void button3_Click(object sender, EventArgs e)
         {
-            this.Hide();
             Frmdanhsachgiangvien f = new Frmdanhsachgiangvien();
+            f.Show();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Frmtrogiup_sv f = new Frmtrogiup_sv();
             f.Show();
         }
     }

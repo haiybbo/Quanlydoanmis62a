@@ -319,6 +319,10 @@
     <Content Include="banguser.mdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="banguser_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>banguser.mdf</DependentUpon>
+    </Content>
     <None Include="Resources\email.png" />
   </ItemGroup>
   <ItemGroup>

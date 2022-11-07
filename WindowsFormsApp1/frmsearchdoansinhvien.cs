@@ -20,7 +20,7 @@ namespace WindowsFormsApp1
         private void button1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Frmdoancuaban yourthesis = new Frmdoancuaban();
+            Frmsinhvienmain yourthesis = new Frmsinhvienmain();
             yourthesis.Show();
         }
 

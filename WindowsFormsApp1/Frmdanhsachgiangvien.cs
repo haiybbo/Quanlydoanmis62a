@@ -20,7 +20,7 @@ namespace WindowsFormsApp1
         private void button1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Frmdoancuaban f = new Frmdoancuaban();
+            Frmsinhvienmain f = new Frmsinhvienmain();
             f.Show();
         }
 

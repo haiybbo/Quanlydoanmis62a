@@ -52,7 +52,7 @@ namespace WindowsFormsApp1
                 {
                     if (phanquyen.role(query).Equals(1))
                     {
-                        Frmdoancuaban frmdoancuaban = new Frmdoancuaban();
+                        Frmsinhvienmain frmdoancuaban = new Frmsinhvienmain();
                         frmdoancuaban.Show();
                     }
                     else if (phanquyen.role(query).Equals(2))

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
-    public partial class Frmdoancuaban : Form
+    public partial class Frmsinhvienmain : Form
     {
-        public Frmdoancuaban()
+        public Frmsinhvienmain()
         {
             InitializeComponent();
         }

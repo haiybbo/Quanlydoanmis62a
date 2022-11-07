@@ -72,7 +72,6 @@
       <DependentUpon>banguserDataSet.xsd</DependentUpon>
     </Compile>
     <Compile Include="Connection.cs" />
-    <Compile Include="forgotpass.cs" />
     <Compile Include="Frmdanhsachsinhvien.cs">
       <SubType>Form</SubType>
     </Compile>

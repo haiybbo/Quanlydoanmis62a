@@ -36,9 +36,6 @@ namespace WindowsFormsApp1
             this.button2 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.listBox4 = new System.Windows.Forms.ListBox();
-            this.button8 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -141,54 +138,12 @@ namespace WindowsFormsApp1
             this.button6.Text = "Đăng xuất";
             this.button6.UseVisualStyleBackColor = false;
             // 
-            // button7
-            // 
-            this.button7.BackColor = System.Drawing.Color.MidnightBlue;
-            this.button7.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button7.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button7.Location = new System.Drawing.Point(1534, 985);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(174, 40);
-            this.button7.TabIndex = 56;
-            this.button7.Text = "In báo cáo";
-            this.button7.UseVisualStyleBackColor = false;
-            // 
-            // listBox4
-            // 
-            this.listBox4.Font = new System.Drawing.Font("Calibri", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.listBox4.FormattingEnabled = true;
-            this.listBox4.ItemHeight = 27;
-            this.listBox4.Items.AddRange(new object[] {
-            "K62",
-            "K61"});
-            this.listBox4.Location = new System.Drawing.Point(1346, 90);
-            this.listBox4.Name = "listBox4";
-            this.listBox4.Size = new System.Drawing.Size(210, 31);
-            this.listBox4.TabIndex = 73;
-            // 
-            // button8
-            // 
-            this.button8.BackColor = System.Drawing.Color.Indigo;
-            this.button8.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button8.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button8.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button8.Location = new System.Drawing.Point(1304, 985);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(216, 40);
-            this.button8.TabIndex = 75;
-            this.button8.Text = "Thêm sinh viên";
-            this.button8.UseVisualStyleBackColor = false;
-            // 
             // Frmadminmain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.ClientSize = new System.Drawing.Size(1443, 840);
-            this.Controls.Add(this.button8);
-            this.Controls.Add(this.listBox4);
-            this.Controls.Add(this.button7);
+            this.ClientSize = new System.Drawing.Size(1573, 937);
             this.Controls.Add(this.groupBox1);
             this.Name = "Frmadminmain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -209,8 +164,5 @@ namespace WindowsFormsApp1
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.ListBox listBox4;
-        private System.Windows.Forms.Button button8;
     }
 }

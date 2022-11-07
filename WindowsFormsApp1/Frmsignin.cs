@@ -77,5 +77,10 @@ namespace WindowsFormsApp1
             quenmatkhau.Show();
             this.Close();
         }
+
+        private void Frmsignin_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

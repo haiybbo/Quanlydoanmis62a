@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
-    public partial class frmsearchdoansinhvien : Form
+    public partial class frm_tim_kiem_do_an_sinh_vien : Form
     {
-        public frmsearchdoansinhvien()
+        public frm_tim_kiem_do_an_sinh_vien()
         {
             InitializeComponent();
         }
@@ -36,16 +36,6 @@ namespace WindowsFormsApp1
             this.Hide();
             Frmdanhsachgiangvien f = new Frmdanhsachgiangvien();
             f.Show();
-        }
-
-        private void frmsearchdoansinhvien_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button7_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

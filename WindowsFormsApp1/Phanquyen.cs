@@ -4,33 +4,34 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data.SqlClient;
+
 namespace WindowsFormsApp1
 {
-    class Modify
+    class Phanquyen
     {
-        public Modify()
+        public Phanquyen()
         {
         }
         SqlCommand sqlCommand;
         SqlDataReader dataReader;
-        public List<Taikhoan> Taikhoans(string query)
+        public List<Taikhoan> role(string query)
         {
-            List<Taikhoan> Taikhoans = new List<Taikhoan>();
-
+            List<Taikhoan> role = new List<Taikhoan>();
             using (SqlConnection sqlConnetion = Connection.GetSqlConnection())
             {
                 sqlConnetion.Open();
                 sqlCommand = new SqlCommand(query, sqlConnetion);
                 dataReader = sqlCommand.ExecuteReader();
-                while(dataReader.Read())
+                while (dataReader.Read())
                 {
-                    Taikhoans.Add(new Taikhoan(dataReader.GetString(0), dataReader.GetString(1), dataReader.GetString(2), dataReader.GetString(3)));
+                    role.Add(new Taikhoan(dataReader.GetString(0), dataReader.GetString(1), dataReader.GetString(2), dataReader.GetString(3)));
                 }
 
                 sqlConnetion.Close();
             }
 
-            return Taikhoans;
+            return role; 
         }
     }
+
 }

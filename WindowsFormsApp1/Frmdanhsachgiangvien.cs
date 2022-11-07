@@ -30,5 +30,10 @@ namespace WindowsFormsApp1
             frm_tim_kiem_do_an_sinh_vien f = new frm_tim_kiem_do_an_sinh_vien();
             f.Show();
         }
+
+        private void Frmdanhsachgiangvien_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

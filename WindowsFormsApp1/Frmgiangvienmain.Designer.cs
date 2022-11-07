@@ -82,6 +82,7 @@ namespace WindowsFormsApp1
             this.button4.Text = "Thư viện đồ án";
             this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button3
             // 
@@ -96,6 +97,7 @@ namespace WindowsFormsApp1
             this.button3.Text = "Danh sách sinh viên";
             this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -118,9 +120,9 @@ namespace WindowsFormsApp1
             this.button7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.button7.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button7.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button7.Location = new System.Drawing.Point(319, 49);
+            this.button7.Location = new System.Drawing.Point(423, 87);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(1024, 45);
+            this.button7.Size = new System.Drawing.Size(1390, 45);
             this.button7.TabIndex = 37;
             this.button7.Text = "ĐỒ ÁN HƯỚNG DẪN";
             this.button7.UseVisualStyleBackColor = false;
@@ -128,10 +130,10 @@ namespace WindowsFormsApp1
             // lblusername
             // 
             this.lblusername.AutoSize = true;
-            this.lblusername.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblusername.Location = new System.Drawing.Point(1230, 9);
+            this.lblusername.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblusername.Location = new System.Drawing.Point(1655, 38);
             this.lblusername.Name = "lblusername";
-            this.lblusername.Size = new System.Drawing.Size(113, 26);
+            this.lblusername.Size = new System.Drawing.Size(113, 29);
             this.lblusername.TabIndex = 36;
             this.lblusername.Text = "Username";
             this.lblusername.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -147,7 +149,7 @@ namespace WindowsFormsApp1
             this.groupBox1.Controls.Add(this.button2);
             this.groupBox1.Location = new System.Drawing.Point(-2, -25);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(288, 1014);
+            this.groupBox1.Size = new System.Drawing.Size(288, 1088);
             this.groupBox1.TabIndex = 35;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "groupBox1";
@@ -156,7 +158,7 @@ namespace WindowsFormsApp1
             // 
             this.button6.BackColor = System.Drawing.Color.LightGray;
             this.button6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button6.Font = new System.Drawing.Font("Calibri", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button6.Location = new System.Drawing.Point(131, 911);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(132, 39);
@@ -168,20 +170,20 @@ namespace WindowsFormsApp1
             // 
             this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ControlLight;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(324, 140);
+            this.dataGridView1.Location = new System.Drawing.Point(428, 151);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 62;
             this.dataGridView1.RowTemplate.Height = 28;
-            this.dataGridView1.Size = new System.Drawing.Size(1018, 684);
+            this.dataGridView1.Size = new System.Drawing.Size(1385, 730);
             this.dataGridView1.TabIndex = 38;
             // 
             // button8
             // 
             this.button8.BackColor = System.Drawing.Color.DarkBlue;
             this.button8.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button8.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button8.Font = new System.Drawing.Font("Calibri", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button8.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button8.Location = new System.Drawing.Point(1146, 865);
+            this.button8.Location = new System.Drawing.Point(1594, 922);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(196, 46);
             this.button8.TabIndex = 39;
@@ -193,7 +195,7 @@ namespace WindowsFormsApp1
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.ClientSize = new System.Drawing.Size(1423, 989);
+            this.ClientSize = new System.Drawing.Size(1864, 1050);
             this.Controls.Add(this.button8);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.button7);

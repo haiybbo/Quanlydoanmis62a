@@ -258,7 +258,7 @@ namespace WindowsFormsApp1
             this.Controls.Add(this.groupBox2);
             this.Name = "Frmprofilegiangvien";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Frmprofilegiangvien";
+            this.Text = "Hồ sơ giảng viên";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();

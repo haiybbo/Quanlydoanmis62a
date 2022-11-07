@@ -72,7 +72,6 @@
       <DependentUpon>banguserDataSet.xsd</DependentUpon>
     </Compile>
     <Compile Include="Connection.cs" />
-    <Compile Include="forgotpass.cs" />
     <Compile Include="Frmdanhsachsinhvien.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -143,6 +142,9 @@
     <Compile Include="Phanquyen.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QLDADataSet.cs">
+      <DependentUpon>QLDADataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="QLDADataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -176,12 +178,6 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>RptDetaitheoGiangvien.rpt</DependentUpon>
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="RptDetaitheoLop.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>RptDetaitheoLop.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="Taikhoan.cs" />
@@ -246,10 +242,6 @@
     <EmbeddedResource Include="RptDetaitheoGiangvien.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>RptDetaitheoGiangvien.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="RptDetaitheoLop.rpt">
-      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
-      <LastGenOutput>RptDetaitheoLop.cs</LastGenOutput>
     </EmbeddedResource>
     <None Include="banguserDataSet.xsc">
       <DependentUpon>banguserDataSet.xsd</DependentUpon>

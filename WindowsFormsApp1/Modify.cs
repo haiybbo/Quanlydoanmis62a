@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 using System.Data.SqlClient;
 namespace WindowsFormsApp1
 {
@@ -21,7 +17,7 @@ namespace WindowsFormsApp1
                 sqlConnetion.Open();
                 sqlCommand = new SqlCommand(query, sqlConnetion);
                 dataReader = sqlCommand.ExecuteReader();
-                while(dataReader.Read())
+                while (dataReader.Read())
                 {
                     Taikhoans.Add(new Taikhoan(dataReader.GetString(0), dataReader.GetString(1)));
                 }

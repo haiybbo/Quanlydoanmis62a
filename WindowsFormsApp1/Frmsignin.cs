@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace WindowsFormsApp1
@@ -42,7 +35,7 @@ namespace WindowsFormsApp1
         {
             string tentk = txtusername.Text;
             string matkhau = txtpassword.Text;
-            if(tentk.Trim() == "") { MessageBox.Show("Vui lòng nhập tên tài khoản!"); }
+            if (tentk.Trim() == "") { MessageBox.Show("Vui lòng nhập tên tài khoản!"); }
             else if (matkhau.Trim() == "") { MessageBox.Show("Vui lòng nhập mật khẩu!"); }
             else
             {

@@ -96,11 +96,11 @@
     <Compile Include="Frmdanhsachgiangvien.Designer.cs">
       <DependentUpon>Frmdanhsachgiangvien.cs</DependentUpon>
     </Compile>
-    <Compile Include="Frmsinhvienmain.cs">
+    <Compile Include="Frmdoancuaban.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Frmsinhvienmain.Designer.cs">
-      <DependentUpon>Frmsinhvienmain.cs</DependentUpon>
+    <Compile Include="Frmdoancuaban.Designer.cs">
+      <DependentUpon>Frmdoancuaban.cs</DependentUpon>
     </Compile>
     <Compile Include="Frmgiangvienmain.cs">
       <SubType>Form</SubType>
@@ -126,12 +126,6 @@
     <Compile Include="frmstudentprofile.Designer.cs">
       <DependentUpon>frmstudentprofile.cs</DependentUpon>
     </Compile>
-    <Compile Include="Frmtrogiup_giangvien.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Frmtrogiup_giangvien.Designer.cs">
-      <DependentUpon>Frmtrogiup_giangvien.cs</DependentUpon>
-    </Compile>
     <Compile Include="Frmviewdoan_sv.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -148,9 +142,6 @@
     <Compile Include="Phanquyen.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="QLDADataSet.cs">
-      <DependentUpon>QLDADataSet.xsd</DependentUpon>
-    </Compile>
     <Compile Include="QLDADataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -186,6 +177,12 @@
       <DependentUpon>RptDetaitheoGiangvien.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="RptDetaitheoLop.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RptDetaitheoLop.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Taikhoan.cs" />
     <EmbeddedResource Include="Frmdanhsachsinhvien.resx">
       <DependentUpon>Frmdanhsachsinhvien.cs</DependentUpon>
@@ -199,8 +196,8 @@
     <EmbeddedResource Include="Frmdanhsachgiangvien.resx">
       <DependentUpon>Frmdanhsachgiangvien.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Frmsinhvienmain.resx">
-      <DependentUpon>Frmsinhvienmain.cs</DependentUpon>
+    <EmbeddedResource Include="Frmdoancuaban.resx">
+      <DependentUpon>Frmdoancuaban.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frmgiangvienmain.resx">
       <DependentUpon>Frmgiangvienmain.cs</DependentUpon>
@@ -213,9 +210,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmstudentprofile.resx">
       <DependentUpon>frmstudentprofile.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Frmtrogiup_giangvien.resx">
-      <DependentUpon>Frmtrogiup_giangvien.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frmviewdoan_sv.resx">
       <DependentUpon>Frmviewdoan_sv.cs</DependentUpon>
@@ -251,6 +245,10 @@
     <EmbeddedResource Include="RptDetaitheoGiangvien.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>RptDetaitheoGiangvien.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RptDetaitheoLop.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RptDetaitheoLop.cs</LastGenOutput>
     </EmbeddedResource>
     <None Include="banguserDataSet.xsc">
       <DependentUpon>banguserDataSet.xsd</DependentUpon>

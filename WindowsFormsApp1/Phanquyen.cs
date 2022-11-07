@@ -14,9 +14,9 @@ namespace WindowsFormsApp1
         }
         SqlCommand sqlCommand;
         SqlDataReader dataReader;
-        public Phanquyen role(string query)
+        public List<Taikhoan> role(string query)
         {
-            Phanquyen role = new Phanquyen();
+            List<Taikhoan> role = new List<Taikhoan>();
             using (SqlConnection sqlConnetion = Connection.GetSqlConnection())
             {
                 sqlConnetion.Open();
@@ -24,12 +24,13 @@ namespace WindowsFormsApp1
                 dataReader = sqlCommand.ExecuteReader();
                 while (dataReader.Read())
                 {
-                    dataReader.GetString(3);
+                    role.Add(new Taikhoan(dataReader.GetString(0), dataReader.GetString(1), dataReader.GetString(2), dataReader.GetString(3)));
                 }
+
                 sqlConnetion.Close();
             }
 
-            return role;
+            return role; 
         }
     }
 

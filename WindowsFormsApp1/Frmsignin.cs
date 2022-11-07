@@ -1,4 +1,11 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace WindowsFormsApp1
@@ -36,19 +43,19 @@ namespace WindowsFormsApp1
         {
             string tentk = txtusername.Text;
             string matkhau = txtpassword.Text;
-            if (tentk.Trim() == "") { MessageBox.Show("Vui lòng nhập tên tài khoản!"); }
+            if(tentk.Trim() == "") { MessageBox.Show("Vui lòng nhập tên tài khoản!"); }
             else if (matkhau.Trim() == "") { MessageBox.Show("Vui lòng nhập mật khẩu!"); }
             else
             {
                 string query = "Select * from Taikhoan where tentaikhoan ='" + tentk + "' and matkhau = '" + matkhau + "'";
                 if (modify.Taikhoans(query).Count !=0 )
                 {
-                    if (phanquyen.role(query).Equals(1))
+                    if (phanquyen.role(query)[0].Phanquyen == "1")
                     {
-                        Frmsinhvienmain frmdoancuaban = new Frmsinhvienmain();
+                        Frmdoancuaban frmdoancuaban = new Frmdoancuaban();
                         frmdoancuaban.Show();
                     }
-                    else if (phanquyen.role(query).Equals(2))
+                    else if (phanquyen.role(query)[0].Phanquyen == "2")
                     {
                         Frmgiangvienmain frmgiangvienmain = new Frmgiangvienmain();
                         frmgiangvienmain.Show();
@@ -76,11 +83,6 @@ namespace WindowsFormsApp1
             Quenmatkhau quenmatkhau = new Quenmatkhau();
             quenmatkhau.Show();
             this.Close();
-        }
-
-        private void Frmsignin_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

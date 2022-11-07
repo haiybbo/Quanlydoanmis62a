@@ -1,4 +1,11 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace WindowsFormsApp1
@@ -19,12 +26,12 @@ namespace WindowsFormsApp1
                 string query = "Select * from Taikhoan where email ='" + txtemail.Text + "'";
                 if (modify.Taikhoans(query).Count != 0)
                 {
-                    lblketqua.ForeColor = System.Drawing.Color.Blue;
+                    lblketqua.ForeColor = Color.Blue;
                     lblketqua.Text = "Mật khẩu: " + modify.Taikhoans(query)[0].Matkhau;
                 }
                 else
                 {
-                    lblketqua.ForeColor = System.Drawing.Color.Red;
+                    lblketqua.ForeColor = Color.Red;
                     lblketqua.Text = "Email này chưa được đăng kí";
                 }
             }
@@ -47,7 +54,7 @@ namespace WindowsFormsApp1
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Frmsignin frmsignin = new Frmsignin();
+                        Frmsignin frmsignin = new Frmsignin();
             frmsignin.Show();
         }
     }

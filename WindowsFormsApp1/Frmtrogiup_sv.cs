@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
-    public partial class Frmviewdoan_sv : Form
+    public partial class Frmtrogiup_sv : Form
     {
-        public Frmviewdoan_sv()
+        public Frmtrogiup_sv()
         {
             InitializeComponent();
-        }
-
-        private void Frmviewdoan_sv_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

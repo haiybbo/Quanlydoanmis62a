@@ -1,4 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace WindowsFormsApp1
@@ -13,7 +16,11 @@ namespace WindowsFormsApp1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Frmadminmain());
+<<<<<<< HEAD
+            Application.Run(new Frmsinhvienmain());
+=======
+            Application.Run(new Frmwelcome());
+>>>>>>> b6f7a88b576ff88c94cc366b1a5683f6348222c6
         }
     }
 }

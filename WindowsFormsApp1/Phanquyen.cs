@@ -24,7 +24,7 @@ namespace WindowsFormsApp1
                 dataReader = sqlCommand.ExecuteReader();
                 while (dataReader.Read())
                 {
-                    dataReader.GetString(3);
+                    dataReader.GetInt32(3);
                 }
                 sqlConnetion.Close();
             }

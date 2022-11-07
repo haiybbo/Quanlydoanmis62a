@@ -50,7 +50,8 @@ namespace WindowsFormsApp1
                 string query = "Select * from Taikhoan where tentaikhoan ='" + tentk + "' and matkhau = '" + matkhau + "'";
                 if (modify.Taikhoans(query).Count !=0 )
                 {
-                    if(phanquyen.role())
+                    if (phanquyen.role(query).Equals(1)
+                        { }
                 }
                 else
                 {

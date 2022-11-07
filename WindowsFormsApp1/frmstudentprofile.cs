@@ -35,7 +35,7 @@ namespace WindowsFormsApp1
         private void button1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Frmdoancuaban yourthesis = new Frmdoancuaban();
+            Frmsinhvienmain yourthesis = new Frmsinhvienmain();
             yourthesis.Show();
         }
 
@@ -47,7 +47,7 @@ namespace WindowsFormsApp1
         private void button4_Click(object sender, EventArgs e)
         {
             this.Hide();
-            frm_tim_kiem_do_an_sinh_vien s = new frm_tim_kiem_do_an_sinh_vien();
+            frmsearchdoansinhvien s = new frmsearchdoansinhvien();
             s.Show();
 
         }

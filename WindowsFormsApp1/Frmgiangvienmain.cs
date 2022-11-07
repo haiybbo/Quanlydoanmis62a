@@ -19,7 +19,20 @@ namespace WindowsFormsApp1
 
         private void button2_Click(object sender, EventArgs e)
         {
+            Frmprofilegiangvien f = new Frmprofilegiangvien();
+            f.Show();
+        }
 
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Frmdanhsachsinhvien f = new Frmdanhsachsinhvien();
+            f.Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            frmsearchdoansinhvien f = new frmsearchdoansinhvien();
+            f.Show();
         }
     }
 }

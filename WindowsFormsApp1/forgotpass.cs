@@ -6,31 +6,29 @@ using System.Threading.Tasks;
 using System.Data.SqlClient;
 namespace WindowsFormsApp1
 {
-    class Modify
+    class forgotpass
     {
-        public Modify()
+        public forgotpass()
         {
         }
         SqlCommand sqlCommand;
         SqlDataReader dataReader;
-        public List<Taikhoan> Taikhoans(string query)
+        public forgotpass quenmk(string query)
         {
-            List<Taikhoan> Taikhoans = new List<Taikhoan>();
-
+            forgotpass quenmk = new forgotpass();
             using (SqlConnection sqlConnetion = Connection.GetSqlConnection())
             {
                 sqlConnetion.Open();
                 sqlCommand = new SqlCommand(query, sqlConnetion);
                 dataReader = sqlCommand.ExecuteReader();
-                while(dataReader.Read())
+                while (dataReader.Read())
                 {
-                    Taikhoans.Add(new Taikhoan(dataReader.GetString(0), dataReader.GetString(1)));
+                    dataReader.GetString(2);
                 }
-
                 sqlConnetion.Close();
             }
 
-            return Taikhoans;
+            return quenmk;
         }
     }
 }

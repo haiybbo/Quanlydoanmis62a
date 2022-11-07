@@ -51,7 +51,9 @@
     <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
     <Reference Include="CrystalDecisions.ReportSource, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
     <Reference Include="CrystalDecisions.Shared, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
-    <Reference Include="System" />
+    <Reference Include="System">
+      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll</HintPath>
+    </Reference>
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -70,6 +72,7 @@
       <DependentUpon>banguserDataSet.xsd</DependentUpon>
     </Compile>
     <Compile Include="Connection.cs" />
+    <Compile Include="forgotpass.cs" />
     <Compile Include="Frmdanhsachsinhvien.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -94,17 +97,11 @@
     <Compile Include="Frmdanhsachgiangvien.Designer.cs">
       <DependentUpon>Frmdanhsachgiangvien.cs</DependentUpon>
     </Compile>
-    <Compile Include="Frmsearchdoan_admin.cs">
+    <Compile Include="Frmdoancuaban.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Frmsearchdoan_admin.Designer.cs">
-      <DependentUpon>Frmsearchdoan_admin.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Frmsinhvienmain.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Frmsinhvienmain.Designer.cs">
-      <DependentUpon>Frmsinhvienmain.cs</DependentUpon>
+    <Compile Include="Frmdoancuaban.Designer.cs">
+      <DependentUpon>Frmdoancuaban.cs</DependentUpon>
     </Compile>
     <Compile Include="Frmgiangvienmain.cs">
       <SubType>Form</SubType>
@@ -143,6 +140,7 @@
       <DependentUpon>Frmwelcome.cs</DependentUpon>
     </Compile>
     <Compile Include="Modify.cs" />
+    <Compile Include="Phanquyen.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="QLDADataSet.Designer.cs">
@@ -199,11 +197,8 @@
     <EmbeddedResource Include="Frmdanhsachgiangvien.resx">
       <DependentUpon>Frmdanhsachgiangvien.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Frmsearchdoan_admin.resx">
-      <DependentUpon>Frmsearchdoan_admin.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Frmsinhvienmain.resx">
-      <DependentUpon>Frmsinhvienmain.cs</DependentUpon>
+    <EmbeddedResource Include="Frmdoancuaban.resx">
+      <DependentUpon>Frmdoancuaban.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frmgiangvienmain.resx">
       <DependentUpon>Frmgiangvienmain.cs</DependentUpon>

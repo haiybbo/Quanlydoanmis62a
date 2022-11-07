@@ -20,7 +20,7 @@ namespace WindowsFormsApp1
         private void button1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Frmsinhvienmain f = new Frmsinhvienmain();
+            Frmdoancuaban f = new Frmdoancuaban();
             f.Show();
         }
 
@@ -34,7 +34,7 @@ namespace WindowsFormsApp1
         private void button4_Click(object sender, EventArgs e)
         {
             this.Hide();
-            frmsearchdoansinhvien f = new frmsearchdoansinhvien();
+            frm_tim_kiem_do_an_sinh_vien f = new frm_tim_kiem_do_an_sinh_vien();
             f.Show();
         }
     }

@@ -233,7 +233,7 @@ namespace WindowsFormsApp1
             this.Controls.Add(this.label1);
             this.Name = "Frmviewdoan_sv";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Chi tiết đồ án";
+            this.Text = "Frmviewdoan_sv";
             this.Load += new System.EventHandler(this.Frmviewdoan_sv_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

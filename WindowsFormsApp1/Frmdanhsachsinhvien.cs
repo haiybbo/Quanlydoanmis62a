@@ -23,5 +23,10 @@ namespace WindowsFormsApp1
             Frmdanhsachgiangvien f = new Frmdanhsachgiangvien();
             f.Show();
         }
+
+        private void Frmdanhsachsinhvien_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

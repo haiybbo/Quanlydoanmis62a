@@ -54,7 +54,7 @@ namespace WindowsFormsApp1
             this.button8.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button8.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button8.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button8.Location = new System.Drawing.Point(487, 25);
+            this.button8.Location = new System.Drawing.Point(456, 22);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(239, 48);
             this.button8.TabIndex = 65;
@@ -64,7 +64,7 @@ namespace WindowsFormsApp1
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(119, 30);
+            this.textBox1.Location = new System.Drawing.Point(88, 27);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(340, 35);
             this.textBox1.TabIndex = 63;
@@ -73,7 +73,7 @@ namespace WindowsFormsApp1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.InitialImage")));
-            this.pictureBox1.Location = new System.Drawing.Point(77, 30);
+            this.pictureBox1.Location = new System.Drawing.Point(46, 27);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(36, 35);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -86,7 +86,7 @@ namespace WindowsFormsApp1
             this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ButtonFace;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.DataSource = this.qLDADataSetBindingSource;
-            this.dataGridView1.Location = new System.Drawing.Point(81, 105);
+            this.dataGridView1.Location = new System.Drawing.Point(33, 103);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 62;
             this.dataGridView1.RowTemplate.Height = 28;

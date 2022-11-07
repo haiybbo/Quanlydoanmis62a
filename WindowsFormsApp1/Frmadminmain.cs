@@ -29,6 +29,7 @@ namespace WindowsFormsApp1
 
         private void button2_Click(object sender, EventArgs e)
         {
+            this.Hide();
             Frmdanhsachgiangvien f = new Frmdanhsachgiangvien();
             f.Show();
         }
@@ -40,6 +41,7 @@ namespace WindowsFormsApp1
 
         private void button3_Click(object sender, EventArgs e)
         {
+            this.Hide();
             Frmdanhsachsinhvien f = new Frmdanhsachsinhvien();
             f.Show();
 
@@ -47,8 +49,7 @@ namespace WindowsFormsApp1
 
         private void button4_Click(object sender, EventArgs e)
         {
-            Frmsearchdoan_admin f = new Frmsearchdoan_admin();
-            f.Show();
+
         }
     }
 }

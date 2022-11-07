@@ -1,18 +1,22 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using System.Data.SqlClient;
+
 namespace WindowsFormsApp1
 {
-    class Modify
+    class Phanquyen
     {
-        public Modify()
+        public Phanquyen()
         {
         }
         SqlCommand sqlCommand;
         SqlDataReader dataReader;
-        public List<Taikhoan> Taikhoans(string query)
+        public Phanquyen role(string query)
         {
-            List<Taikhoan> Taikhoans = new List<Taikhoan>();
-
+            Phanquyen role = new Phanquyen();
             using (SqlConnection sqlConnetion = Connection.GetSqlConnection())
             {
                 sqlConnetion.Open();
@@ -20,13 +24,13 @@ namespace WindowsFormsApp1
                 dataReader = sqlCommand.ExecuteReader();
                 while (dataReader.Read())
                 {
-                    Taikhoans.Add(new Taikhoan(dataReader.GetString(0), dataReader.GetString(1)));
+                    dataReader.GetString(3);
                 }
-
                 sqlConnetion.Close();
             }
 
-            return Taikhoans;
+            return role;
         }
     }
+
 }

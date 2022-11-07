@@ -30,7 +30,8 @@ namespace WindowsFormsApp1
         {
 
         }
-
+        Modify modify = new Modify();
+        Phanquyen phanquyen = new Phanquyen();
         private void btnsignin2_Click(object sender, EventArgs e)
         {
             string tentk = txtusername.Text;
@@ -40,7 +41,28 @@ namespace WindowsFormsApp1
             else
             {
                 string query = "Select * from Taikhoan where tentaikhoan ='" + tentk + "' and matkhau = '" + matkhau + "'";
-
+                if (modify.Taikhoans(query).Count !=0 )
+                {
+                    if (phanquyen.role(query).Equals(1))
+                    {
+                        Frmdoancuaban frmdoancuaban = new Frmdoancuaban();
+                        frmdoancuaban.Show();
+                    }
+                    else if (phanquyen.role(query).Equals(2))
+                    {
+                        Frmgiangvienmain frmgiangvienmain = new Frmgiangvienmain();
+                        frmgiangvienmain.Show();
+                    }
+                    else 
+                    {
+                        Frmadminmain frmadminmain = new Frmadminmain();
+                        frmadminmain.Show();
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Tên tài khoản hoặc mật khẩu không chính xác", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
             }
         }
 
@@ -53,6 +75,7 @@ namespace WindowsFormsApp1
         {
             Quenmatkhau quenmatkhau = new Quenmatkhau();
             quenmatkhau.Show();
+            this.Close();
         }
     }
 }
